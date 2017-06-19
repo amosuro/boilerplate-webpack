@@ -1,0 +1,24 @@
+{
+  "name": "boilerplate-webpack",
+  "version": "1.0.0",
+  "description": "boilerplate for webpack",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/amosuro/boilerplate-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/amosuro/boilerplate-webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "css-loader": "^0.28.4",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.18.2"
+  }
+}
